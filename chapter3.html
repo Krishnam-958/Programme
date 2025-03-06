@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3: Computer Software and Operating System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        code {
+            background-color: #f4f4f4;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .comparison-table th, .comparison-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .comparison-table th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Chapter 3: Computer Software and Operating System</h1>
+
+    <section>
+        <h2>Software - Introduction</h2>
+        <p>Hardware by itself cannot perform any useful tasks without proper coordination with software. Software enables the hardware to function effectively and helps in mobilizing various resources. Software consists of sets of instructions known as programs, which tell the computer what to do. In essence, software is a collection of related programs and documentation. For any useful output to be produced, the hardware and software must work together. The different types of software include:</p>
+        
+        <h3>1. System Software</h3>
+        <p>System software includes programs that control the operations of the computer system. These programs are not tailored to the specific needs of the user but are designed to assist in the management and operation of hardware resources. System software supports the running of other software, communicates with peripheral devices, and provides a platform for the development of other software.</p>
+
+        <h4>Categories of System Software:</h4>
+        <ul>
+            <li><strong>System Management:</strong> Responsible for managing the functioning of the computer system and performing management tasks between hardware and software.</li>
+            <ul>
+                <li><strong>Operating System:</strong> The first program loaded into the computer's memory when powered on. It manages the computer's hardware and software resources and provides an interface for users to interact with the system (e.g., Windows, Linux, macOS).</li>
+                <li><strong>Utility Software:</strong> Supporting programs that perform specific tasks related to system maintenance, such as file compression or virus scanning (e.g., Norton Utility, WinZip).</li>
+                <li><strong>Device Drivers:</strong> Software that allows the computer to communicate with external hardware devices like printers, scanners, or keyboards.</li>
+            </ul>
+
+            <li><strong>System Development:</strong> Helps programmers create new programs. System development software includes programming languages and language translators:</li>
+            <ul>
+                <li><strong>Programming Languages:</strong> Sets of instructions that allow users to write programs for the computer. These can be low-level or high-level languages.</li>
+                <li><strong>Language Translators:</strong> Tools that translate programs written in one language into another (e.g., compilers, interpreters, assemblers).</li>
+            </ul>
+        </ul>
+
+        <h3>2. Application Software</h3>
+        <p>Application software refers to programs designed to help users perform specific tasks, such as word processing, spreadsheet management, or image editing. Unlike system software, application software directly addresses the needs of the user.</p>
+
+        <h4>Types of Application Software:</h4>
+        <ul>
+            <li><strong>Packaged Software:</strong> General-purpose software designed for wide usage but may not match every user's needs (e.g., Microsoft Office, Adobe Photoshop).</li>
+            <li><strong>Customized Software:</strong> Tailored software designed to meet the specific needs of a user or organization (e.g., payroll systems, inventory management systems).</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Operating System - Introduction</h2>
+        <p>An operating system (OS) is a collection of programs that manage computer hardware and software resources. It provides a platform for application programs and acts as an intermediary between the user and the computer hardware. The main goal of an OS is to improve the efficiency and performance of a computer system.</p>
+
+        <h3>Functions of an Operating System:</h3>
+        <ul>
+            <li><strong>I/O Management:</strong> Manages the input and output of data between the computer and external devices such as keyboards, printers, etc.</li>
+            <li><strong>User Interface (UI):</strong> Provides a means for users to interact with the computer. There are two primary types of UIs:
+                <ul>
+                    <li><strong>Character/Command User Interface (CUI):</strong> Used in systems like MS-DOS, where commands are typed.</li>
+                    <li><strong>Graphical User Interface (GUI):</strong> Found in systems like Windows and macOS, where users interact with icons and visual elements.</li>
+                </ul>
+            </li>
+            <li><strong>Security:</strong> Protects data and prevents unauthorized access by setting up user accounts and passwords.</li>
+            <li><strong>Process Management:</strong> Allocates CPU time to various processes and ensures that they execute properly.</li>
+            <li><strong>Memory Management:</strong> Manages the computer's memory (RAM), ensuring that each process has enough space to execute.</li>
+            <li><strong>Data Management:</strong> Organizes data into logical groups such as files and directories.</li>
+            <li><strong>Deadlock Prevention:</strong> Avoids situations where two or more processes are stuck in a state where they cannot proceed.</li>
+            <li><strong>Time Sharing:</strong> Allows multiple users to access the computer system simultaneously.</li>
+            <li><strong>Virtual Memory:</strong> Uses disk space as additional memory when the physical memory (RAM) is full.</li>
+        </ul>
+
+        <p>Examples of operating systems include MS-DOS, Windows, macOS, Linux, etc.</p>
+    </section>
+
+    <section>
+        <h2>Types of Operating Systems</h2>
+
+        <h3>A) On the Basis of Processing:</h3>
+        <ul>
+            <li><strong>Multi-programming OS:</strong> Allows multiple programs to run simultaneously by sharing CPU time.</li>
+            <li><strong>Multi-tasking OS:</strong> Allows multiple tasks or processes to run concurrently, typically used in single-user environments.</li>
+            <li><strong>Multiprocessing OS:</strong> Uses more than one CPU to execute multiple processes simultaneously.</li>
+            <li><strong>Time-sharing OS:</strong> Shares processor time among multiple users, providing the illusion of simultaneous execution.</li>
+            <li><strong>Batch Processing OS:</strong> Executes jobs in batches without user interaction during processing.</li>
+            <li><strong>Multi-threading OS:</strong> Divides a process into smaller threads that are executed concurrently.</li>
+            <li><strong>Real-time OS:</strong> Processes data within a fixed time, typically used in systems where time constraints are critical.</li>
+            <li><strong>Online Processing OS:</strong> Processes transactions as soon as they occur, with immediate feedback to the user.</li>
+        </ul>
+
+        <h3>B) On the Basis of User Interface (UI):</h3>
+        <ul>
+            <li><strong>Character User Interface (CUI):</strong> A command-based interface where users interact by typing text commands (e.g., MS-DOS).</li>
+            <li><strong>Graphical User Interface (GUI):</strong> A visual-based interface where users interact with icons and visual elements (e.g., Windows, macOS).</li>
+        </ul>
+    </section>
+
+    <h1>Graphical User Interface (GUI) vs Character User Interface (CUI) and Operating Systems</h1>
+
+    <section>
+        <h2>Features of Graphical User Interface (GUI)</h2>
+        <ul>
+            <li>It is user-friendly, making it easy to use.</li>
+            <li>The user doesn't have to remember commands or syntax.</li>
+            <li>GUI supports full multimedia and animation.</li>
+            <li>It requires larger memory for its processing.</li>
+            <li>GUI environments support multimedia and animation.</li>
+            <li>It can be used in network environments.</li>
+            <li>GUI is multi-tasking, multi-programming, and multi-user operating system.</li>
+            <li>Every type of peripheral device can be used with GUI.</li>
+        </ul>
+
+        <h3>Basic Components of GUI:</h3>
+        <ul>
+            <li><strong>Icon:</strong> Icons are small pictures representing commands, files, or windows.</li>
+            <li><strong>Pointer:</strong> A symbol (usually an angled arrow) controlled by a pointing device such as a mouse, trackpad, or light pen.</li>
+            <li><strong>Desktop:</strong> The area on the display screen where icons are grouped, referred to as the desktop.</li>
+            <li><strong>Windows:</strong> Windows can be resized, moved, and allow different programs or information to be displayed.</li>
+            <li><strong>Menus:</strong> Allow users to select commands from a list of options.</li>
+            <li><strong>Folders:</strong> A graphical representation of a directory or collection of files.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Comparison Between Character User Interface (CUI) and Graphical User Interface (GUI)</h2>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Character User Interface (CUI)</th>
+                    <th>Graphical User Interface (GUI)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Interaction with applications through commands.</td>
+                    <td>Interaction through graphics and visual elements.</td>
+                </tr>
+                <tr>
+                    <td>CUI stands for Character User Interface.</td>
+                    <td>GUI stands for Graphical User Interface.</td>
+                </tr>
+                <tr>
+                    <td>Single tasking (one task at a time).</td>
+                    <td>Multi-tasking (multiple tasks simultaneously).</td>
+                </tr>
+                <tr>
+                    <td>Not very user-friendly.</td>
+                    <td>User-friendly interface.</td>
+                </tr>
+                <tr>
+                    <td>Everything is done using commands.</td>
+                    <td>Applications are interacted with using devices like a mouse.</td>
+                </tr>
+                <tr>
+                    <td>Faster than GUI.</td>
+                    <td>Slower than CUI.</td>
+                </tr>
+                <tr>
+                    <td>Older computers used CUI.</td>
+                    <td>Modern computers use GUI.</td>
+                </tr>
+                <tr>
+                    <td>Examples: DOS, UNIX, etc.</td>
+                    <td>Examples: Windows, macOS, etc.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Operating Systems Based on User Mode</h2>
+        <h3>1. Single User OS</h3>
+        <p>A single user OS is designed for use by a single user at a time. There are two types:</p>
+        <ul>
+            <li><strong>Single User, Single Tasking:</strong> Can only handle one task at a time (e.g., MS-DOS).</li>
+            <li><strong>Single User, Multi-tasking:</strong> Can handle multiple tasks, allowing the user to perform more than one action simultaneously.</li>
+        </ul>
+
+        <h3>2. Multi User OS</h3>
+        <p>A multi-user OS allows multiple users to access the system at the same time through different terminals. It shares computer resources among users, giving them the impression of simultaneous service, even though they are being served one at a time. This is known as time-sharing.</p>
+        <ul>
+            <li>Examples: Linux, UNIX</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Some Important Operating Systems in Use</h2>
+        <h3>Open Source Operating Systems</h3>
+        <p>Open source operating systems have source code that is freely available and can be modified by anyone. Users do not need to buy a license to use the software, and they can redistribute the modified version legally.</p>
+        <ul>
+            <li>Examples: Linux, Unix, Minix, Open Solaris</li>
+        </ul>
+
+        <h3>Unix</h3>
+        <p>UNIX is a powerful, flexible, and multi-tasking OS developed by AT&T Bell Labs in 1970. It is used in larger machines like mainframes and mini-computers. It has influenced many operating systems such as Linux and Solaris.</p>
+
+        <h3>Linux</h3>
+        <p>Linux is an open-source UNIX-based OS that can run on various platforms. It was developed by Linus Torvalds and released as a free, user-developed project. Linux is popular for servers and distributed through different distributions like Red Hat, Ubuntu, and Fedora.</p>
+
+        <h3>Mac OS</h3>
+        <p>Mac OS is a GUI-based operating system used in Apple Macintosh computers. It is known for its high-quality graphical user interface.</p>
+    </section>
+
+    <section>
+        <h2>Some Terminologies Related to Operating Systems</h2>
+
+        <h3>Spooling</h3>
+        <p>Spooling is used to balance the speed differences between a fast CPU and slower input/output devices. It allows multiple files to be queued and printed sequentially, while the CPU remains free for other tasks.</p>
+
+        <h3>Process</h3>
+        <p>A process is a program in execution. It can be in different states such as running, ready, or blocked. A process is dynamic, whereas a program is static.</p>
+
+        <h3>Thread</h3>
+        <p>Threading is a technique used in operating systems to divide a process into smaller sub-processes that can run concurrently, improving efficiency and minimizing the cost of context switching.</p>
+
+        <h3>Scheduling</h3>
+        <p>Scheduling refers to the process of deciding which process should run first when multiple processes are competing for CPU time. Two types of scheduling are:</p>
+        <ul>
+            <li><strong>Priority Scheduling:</strong> Jobs are executed based on priority, with high-priority jobs being executed first.</li>
+            <li><strong>Time-sharing Scheduling:</strong> Each process is given a fixed amount of time to execute.</li>
+        </ul>
+
+        <h3>Buffering</h3>
+        <p>Buffering uses small storage devices to hold data during input/output operations, improving the efficiency of the system. This is particularly useful in applications like audio/video streaming.</p>
+
+        <h3>Virtual Memory</h3>
+        <p>Virtual memory allows an OS to use space from secondary memory when primary memory (RAM) is insufficient. It divides large programs into smaller chunks, known as pages, and stores them temporarily in secondary memory.</p>
+    </section>
+</body>
+</html>
+
